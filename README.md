@@ -1,6 +1,27 @@
 # Bookhub
 
-Book's home.
+Welcome to the Bookhub! This is a mobile app that lets you browse and discover new books, see their descriptions, and read their summaries. Here's how you can use it:
+
+# Features
+
+The Bookhub comes with a number of features to help you find and discover new books:
+
+Book descriptions: You can see a short blurb about each book to get a sense of what it's about.
+
+Book summaries: If you want to dive deeper, you can read a longer summary of each book to get a better understanding of its themes and plot.
+
+Pricing: You can also see the price of each book, so you can decide whether it fits within your budget.
+
+# Technologies
+
+The Bookhub was built using the following technologies:
+
+Flutter
+Dart
+
+# Contributing
+
+If you'd like to contribute to the Bookhub, feel free to submit a pull request! We're always looking for ways to improve the app and make it more useful for book lovers.
 
 # Screenshots
 
@@ -12,15 +33,3 @@ Book's Screens
 ![WhatsApp Image 2023-02-23 at 01 21 38](https://user-images.githubusercontent.com/92632170/220743619-afd5df9f-ea7e-4934-a062-34598a6a4207.jpg)
 
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
