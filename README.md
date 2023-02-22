@@ -21,7 +21,7 @@ Dart
 
 # Contributing
 
-If you'd like to contribute to the Bookhub, feel free to submit a pull request! We're always looking for ways to improve the app and make it more useful for book lovers.
+If you'd like to contribute to the Bookhub, feel free to submit a pull request! I am always looking for ways to improve the app and make it more useful for book lovers.
 
 # Screenshots
 
