@@ -1,10 +1,10 @@
-# Bookhub
+# BookHub
 
-Welcome to the Bookhub! This is a mobile app that lets you browse and discover new books, see their descriptions, and read their summaries. Here's how you can use it:
+Welcome to the BookHub! This is a mobile app that lets you browse and discover new books, see their descriptions, and read their summaries. Here's how you can use it:
 
 # Features
 
-The Bookhub comes with a number of features to help you find and discover new books:
+The BookHub comes with a number of features to help you find and discover new books:
 
 Book descriptions: You can see a short blurb about each book to get a sense of what it's about.
 
@@ -21,7 +21,7 @@ Dart
 
 # Contributing
 
-If you'd like to contribute to the Bookhub, feel free to submit a pull request! I am always looking for ways to improve the app and make it more useful for book lovers.
+If you'd like to contribute to the BookHub, feel free to submit a pull request! I am always looking for ways to improve the app and make it more useful for book lovers.
 
 # Screenshots
 
