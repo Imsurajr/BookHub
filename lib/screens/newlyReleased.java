@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:bookhub/models/newbook_model.dart';
 import '../constants/colours.dart';
 
-class newlyReleased extends StatelessWidget {
-  const newlyReleased({Key? key}) : super(key: key);
+class NewlyReleased extends StatelessWidget {
+  const NewlyReleased({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

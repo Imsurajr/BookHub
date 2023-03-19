@@ -1,33 +1,27 @@
 import 'package:flutter/material.dart';
-import 'package:bookhub/models/newbook_model.dart';
 import '../constants/colours.dart';
 
-class bestSeller extends StatelessWidget {
-   bestSeller({Key? key}) : super(key: key);
+class BestSeller extends StatelessWidget {
+  BestSeller({Key? key}) : super(key: key);
 
-   int best=1;
+  int best=1;
 
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
         padding: EdgeInsets.only(left: 25, right: 6),
-        itemCount: newbooks.length,
+        itemCount: 8,
         physics: BouncingScrollPhysics(),
         scrollDirection: Axis.horizontal,
         itemBuilder: (context, index) {
           best=index+1;
           return  Container(
-            height: 210,
-            width: 153,
-            margin: EdgeInsets.only(right: 19),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10),
-              color: kMainColor,
-              image: DecorationImage(
-                image: AssetImage("assets/images/newr${index + 1}.jpg"),
-                fit: BoxFit.cover,
-              ),
-            ),
+              margin: EdgeInsets.only(right: 19),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                color: kMainColor,),
+              child: Image.asset("assets/images/bestseller${index + 1}.jpg")
+
           );
           //   Container(
           //   height: 210,
@@ -43,9 +37,9 @@ class bestSeller extends StatelessWidget {
           //       )),
           // );
         });
-  }
+
 }
 
 /*
 
- */
+ */}

@@ -7,33 +7,17 @@ class PopularBookModel {
 }
 
 List<PopularBookModel> populars =
-/*
-This line uses the map method to transform each element of popularBookData into a PopularBookModel object.
-The map method takes a function that is applied to each element of the list. In this case, the function takes an
-individual item from popularBookData, which is assumed to be a Map object with keys for the book's title, author,
-price, image, color, and description. The function uses these keys to create a new PopularBookModel object,
-with each attribute set to the corresponding value from the Map.
- */
-    popularBookData
-        .map((item) => PopularBookModel(
-            item['title'].toString(),
-            item['author'].toString(),
-            item['price'].toString(),
-            item['image'].toString(),
-            // item['color']
-            int.tryParse(item['color'].toString()) ?? 0,
-            item['description'].toString(),
-            item['summary'].toString()))
-/*
-.toList() This line converts the result of the map method back to a List of PopularBookModel objects.
-The toList method is called on the
- Iterable returned by map, which creates a new List with the elements of the Iterable.
- */
-        .toList();
-// List<PopularBookModel> populars = popularBookData
-//     .map((item) => PopularBookModel('title', 'author',
-//     'price', 'image', 'color', 'description'))
-//     .toList();
+
+popularBookData
+    .map((item) => PopularBookModel(
+    item['title'].toString(),
+    item['author'].toString(),
+    item['price'].toString(),
+    item['image'].toString(),
+    int.tryParse(item['color'].toString()) ?? 0,
+    item['description'].toString(),
+    item['summary'].toString())).toList();
+
 
 var popularBookData = [
   {
@@ -43,8 +27,8 @@ var popularBookData = [
     "image": "assets/images/img_popular_book1.jpg",
     "color": 0xFFFFD3B6,
     "description":
-        "This novel has been gaining fame on TikTok and is now hitting the bestseller charts as an unputdownable "
-            "story about the lasting effects of trauma.",
+    "This novel has been gaining fame on TikTok and is now hitting the bestseller charts as an unputdownable "
+        "story about the lasting effects of trauma.",
     "summary": "      The Way I Used to Be is a YA novel written by author Amber Smith \. "
         "The book, published in 2016, is a New York Times bestseller. Smith, an "
         " advocate for spreading awareness about issues related to gendered violence,"
@@ -96,9 +80,9 @@ var popularBookData = [
     "image": "assets/images/img_popular_book2.jpg",
     "color": 0xFF2B325C,
     "description":
-        "While the title makes it seem like this is the first book, this is actually the sequel to It Ends With Us."
-            " After you’ve read It Ends With Us, you’ll definitely want to follow it up with this newest release that everyone "
-            "can’t stop talking about.",
+    "While the title makes it seem like this is the first book, this is actually the sequel to It Ends With Us."
+        " After you’ve read It Ends With Us, you’ll definitely want to follow it up with this newest release that everyone "
+        "can’t stop talking about.",
     "summary": "“It Starts With Us” is Colleen Hoover’s sequel to her best-selling novel and BookTok sensation, “It Ends With Us.” The sequel begins directly after “It Ends With Us” and brings the reader through the intricacies of life after divorce and domestic abuse. “It Starts With Us” is a lighter read than its predecessor,  allowing the reader to experience Atlas and Lily’s relationship as they navigate divorce, found family and starting a new life after abuse. In many ways, Hoover presents a “second-chance” romance that alternates between Atlas’s and Lily’s points of views. “It Ends With Us” must be read first in order to fully understand the magnitude of some of the trivial events in “It Starts With Us.”"
         "It’s clear that Hoover trusts her audience and doesn’t shy away from harsh themes in "
         "  any of her novels; she certainly does not portray an uncomplicated love in “It Starts With Us.” "
@@ -162,10 +146,10 @@ var popularBookData = [
     "image": "assets/images/img_popular_book3.jpg",
     "color": 0xFFF7EA4A,
     "description":
-        "Nora Seed feels stuck in her life, bound to the choices she made that she still isn't sure were right. "
-            "When Nora is ready to leave it all behind, she finds herself in a peculiar library, where each of the "
-            "infinite books offers a portal to a parallel world, showing her all the many ways her life could have been "
-            "slightly or drastically different, had she made other decisions.",
+    "Nora Seed feels stuck in her life, bound to the choices she made that she still isn't sure were right. "
+        "When Nora is ready to leave it all behind, she finds herself in a peculiar library, where each of the "
+        "infinite books offers a portal to a parallel world, showing her all the many ways her life could have been "
+        "slightly or drastically different, had she made other decisions.",
     "summary": " Matt Haig's unique novel The Midnight Library ponders the infinite possibilities of life. '"
         "It is about a young woman named Nora Seed, who lives a monotonous, ordinary life and feels unwanted and "
         "  'unaccomplished. One night, her despair reaches a peak and she commits suicide. But the story doesn't end "
@@ -200,7 +184,7 @@ var popularBookData = [
     "image": "assets/images/img_popular_book4.jpg",
     "color": 0xFFF7EA4A,
     "description":
-        "This thriller follows three moms as they go into overdrive to try to get their daughters a single, coveted spot at Stanford—including possibly attempted murder. (So no, you're doing just fine!)",
+    "This thriller follows three moms as they go into overdrive to try to get their daughters a single, coveted spot at Stanford—including possibly attempted murder. (So no, you're doing just fine!)",
     "summary": "Three dreams to get into Stanford. Three Daughters. Three Mothers. Three Motivations."
         "  It is college admissions time at EBA (Elliot Bay Academy) in Seattle. Applications have been submitted, "
         " fingers have been crossed and lines have been crossed. Everyone is upset when Stanford announces that they"
@@ -244,7 +228,7 @@ var popularBookData = [
     "image": "assets/images/img_popular_book5.jpg",
     "color": 0xFFF7EA4A,
     "description":
-        "NOW A MAJOR MOTION PICTURE—The #1 New York Times bestselling worldwide sensation with more than 18 million copies sold, hailed by The New York Times Book Review as “a painfully beautiful first novel that is at once a murder mystery, a coming-of-age narrative and a celebration of nature.”",
+    "NOW A MAJOR MOTION PICTURE—The #1 New York Times bestselling worldwide sensation with more than 18 million copies sold, hailed by The New York Times Book Review as “a painfully beautiful first novel that is at once a murder mystery, a coming-of-age narrative and a celebration of nature.”",
     "summary": "For years, rumors of the \"Marsh Girl\" have haunted Barkley Cove, a quiet town on the North Carolina coast. So in late 1969, when handsome Chase Andrews is found dead, the locals immediately suspect Kya Clark, the so-called Marsh Girl. But Kya is not what they say. Sensitive and intelligent, she has survived for years alone in the marsh that she calls home, finding friends in the gulls and lessons in the sand. Then the time comes when she yearns to be touched and loved. When two young men from town become intrigued by her wild beauty, Kya opens herself to a new life - until the unthinkable happens."
         "  Perfect for fans of Barbara Kingsolver and Karen Russell, Where the Crawdads Sing "
         " is at once an exquisite ode to the natural world, a heartbreaking coming-of-age"
@@ -259,7 +243,7 @@ var popularBookData = [
     "image": "assets/images/img_popular_book6.jpg",
     "color": 0xFFF7EA4A,
     "description":
-        "A warm, incisive new novel about the enduring bonds of marriage and friendship from Cynthia D’Aprix Sweeney, author of the instant New York Times bestseller The Nest",
+    "A warm, incisive new novel about the enduring bonds of marriage and friendship from Cynthia D’Aprix Sweeney, author of the instant New York Times bestseller The Nest",
     "summary": "Flora Mancini has been happily married for more than twenty years. But everything she thought "
         "she knew about herself, her marriage, and her relationship with her best friend, Margot, is upended when she "
         "stumbles upon an envelope containing her husband’s wedding ring—the one he claimed he lost one summer when their daughter, "
@@ -278,7 +262,7 @@ var popularBookData = [
     "image": "assets/images/img_popular_book7.jpg",
     "color": 0xFFF7EA4A,
     "description":
-        "A guide to some of the world’s most fascinating places, as seen and experienced by writer, television host, and relentlessly curious traveler Anthony Bourdain",
+    "A guide to some of the world’s most fascinating places, as seen and experienced by writer, television host, and relentlessly curious traveler Anthony Bourdain",
     "summary": "Anthony Bourdain saw more of the world than nearly anyone. His travels took him from the hidden pockets of his hometown of New York to a tribal longhouse in Borneo, from cosmopolitan Buenos Aires, Paris, and Shanghai to Tanzania’s utter beauty and the stunning desert solitude of Oman’s Empty Quarter—and many places beyond."
         "In World Travel, a life of experience is collected into an entertaining, practical, fun and frank travel guide that"
         "gives readers an introduction to some of his favorite places—in his own words. Featuring essential advice on how "
@@ -298,7 +282,7 @@ var popularBookData = [
     "image": "assets/images/img_popular_book8.jpg",
     "color": 0xFFF7EA4A,
     "description":
-        "All About Love (2000) breaks down why love remains elusive for many of us. From our flawed understanding of what love is to our misguided expectations of romantic love, author bell hooks examines common barriers to love and explains the steps individuals need to take for society to become more loving and nurturing.",
+    "All About Love (2000) breaks down why love remains elusive for many of us. From our flawed understanding of what love is to our misguided expectations of romantic love, author bell hooks examines common barriers to love and explains the steps individuals need to take for society to become more loving and nurturing.",
     "summary": "What’s a topic we’re all familiar with, one that can be found in the movies we watch, the books we read, and the songs we sing along to? If you’re guessing love, then you’re spot on. But despite being surrounded by images of, and ideas about love, a lot of us have a flawed understanding of what it is exactly. This makes finding love in our own lives a lot harder."
         "We tend to think of love  as strong affection for family, friends, or romantic partners. However, "
         "the problem with focusing on that feeling is that we ignore the choices and actions that are necessary for love "
@@ -317,20 +301,3 @@ var popularBookData = [
   },
 ];
 
-/*
-In the given code, popularBookData is a list of Map objects that contains the information about popular books.
- Each Map object represents a book and contains the key-value pairs for the book's title, author, price, image, color, and description.
-
-The PopularBookModel class is created to represent a book in the application.
-The class has several attributes that correspond to the book's title, author, price, image, color, and description.
-
-To create a list of PopularBookModel objects from the popularBookData list, the map() method is used.
-The map() method takes a function that is applied to each element of the list. In this case, the function takes an individual item from popularBookData, which is a Map object with keys for the book's attributes, and uses these keys to create a new PopularBookModel object, with each attribute set to the corresponding value from the Map.
-
-The resulting Iterable of PopularBookModel objects returned by map() is then converted back to a List using the toList() method.
-The resulting List is assigned to the populars variable.
-
-So, the code above transforms the list of Map objects popularBookData into a list of PopularBookModel objects populars.
-The PopularBookModel class is used to represent a book in the application, and the popularBookData list is used as a data source to
-create PopularBookModel objects.
- */
