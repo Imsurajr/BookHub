@@ -10,7 +10,7 @@ Book descriptions: You can see a short blurb about each book to get a sense of w
 
 Book summaries: If you want to dive deeper, you can read a longer summary of each book to get a better understanding of its themes and plot.
 
-Pricing: You can also see the price of each book, so you can decide whether it fits within your budget.
+Pricing: You can also see the price of each book, so you can decide whether it fits within your read.
 
 # Technologies
 
