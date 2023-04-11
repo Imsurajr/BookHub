@@ -4,7 +4,7 @@ Welcome to the BookHub! This is a mobile app that lets you browse and discover n
 
 # Features
 
-The BookHub comes with a number of features to help you find and discover new books:
+The BookHub comes with a number of features to help you find and discover new books.
 
 Book descriptions: You can see a short blurb about each book to get a sense of what is the theme of the book.
 
