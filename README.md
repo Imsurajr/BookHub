@@ -1,6 +1,6 @@
 # BookHub
 
-Welcome to the BookHub! This is a mobile app that lets you browse and discover new books, see their descriptions, and read  summaries. Here's how you can use it.
+Welcome to the BookHub! This is a mobile app that lets you browse and discover new books, see their descriptions, and read  summaries. Here's how you can use it :-
 
 # Features
 
