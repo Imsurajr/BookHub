@@ -1,16 +1,16 @@
 # BookHub
 
-Welcome to the BookHub! This is a mobile app that lets you browse and discover new books, see their descriptions, and read their summaries. Here's how you can use it:
+Welcome to the BookHub! This is a mobile app that lets you browse and discover new books, see their descriptions, and read  summaries. Here's how you can use it :-
 
 # Features
 
-The BookHub comes with a number of features to help you find and discover new books:
+The BookHub comes with a number of features to help you find and discover new books.
 
-Book descriptions: You can see a short blurb about each book to get a sense of what it's about.
+Book descriptions: You can see a short blurb about each book to get a sense of what is the theme of the book.
 
 Book summaries: If you want to dive deeper, you can read a longer summary of each book to get a better understanding of its themes and plot.
 
-Pricing: You can also see the price of each book, so you can decide whether it fits within your budget.
+Pricing: You can also see the price of each book, so you can decide whether it fits within your read.
 
 # Technologies
 
