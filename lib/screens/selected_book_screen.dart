@@ -24,7 +24,7 @@ class _SelectedBookScreenState extends State<SelectedBookScreen> {
     return Scaffold(
         bottomNavigationBar: Container(
           height: 49,
-          margin: EdgeInsets.only(left: 15, right: 15, bottom: 10),
+          margin: EdgeInsets.only(left: 14, right: 14, bottom: 10),
           color: Colors.transparent,
           child: ElevatedButton(
             child: Text(
