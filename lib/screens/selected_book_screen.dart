@@ -86,7 +86,7 @@ class _SelectedBookScreenState extends State<SelectedBookScreen> {
                          alignment: Alignment.bottomCenter,
                           child: Container(
                             width: MediaQuery.of(context).size.width*0.75,
-                            height: 172,
+                            height: MediaQuery.of(context).size.height*0.215,
                             margin: EdgeInsets.only(bottom: 62),
                             decoration: BoxDecoration(
                               image: DecorationImage(
