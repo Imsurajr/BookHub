@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
+        //to exit the keyboard on clicking anywhere on the app screen
         FocusManager.instance.primaryFocus?.unfocus();
       },
       child: MaterialApp(
