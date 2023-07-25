@@ -95,7 +95,7 @@ class _SelectedBookScreenState extends State<SelectedBookScreen> {
                                   widget.popularBookModel.image,
                                 ),
                               ),
-                              borderRadius: BorderRadius.circular(10),
+                              borderRadius: BorderRadius.circular(11),
                             ),
                           ),
                         ),
